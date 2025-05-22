@@ -1,5 +1,6 @@
 #Ignore folders
 /logs/
+/trained_model/
 
 #Ignore files
 *.logs
