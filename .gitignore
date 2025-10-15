@@ -1,9 +1,21 @@
-#Ignore folders
-/logs/
+# Project-specific ignores
+/logs/*.log
+/trained_models/*.pkl
+/plots/*.png
+/results/*.csv
+
+# Keep directory structure but ignore contents
+/logs/.gitkeep
+/trained_models/.gitkeep
+/plots/.gitkeep
+/results/.gitkeep
+
+# Legacy ignore (keep for compatibility)
 /trained_model/
 
 #Ignore files
-*.logs
+*.log
+*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
