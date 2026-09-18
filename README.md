@@ -71,7 +71,7 @@ make clean          # Clean generated files
 ├── build.sh                         # Build script (Unix/Linux/macOS)
 ├── build.bat                        # Build script (Windows)
 ├── README.md                        # This file
-├── LICENSE                          # Project license
+├── LICENSE                          # Apache 2.0 (software)
 ├── .gitignore                       # Git ignore rules
 │
 ├── src/                             # Source code (NEW STRUCTURE)
@@ -119,7 +119,8 @@ make clean          # Clean generated files
 ├── notebooks/                       # Jupyter notebooks (ORIGINAL)
 │   └── dataset_analysis_EDA.ipynb   # Original EDA notebook
 │
-├── documentation/                   # Project documentation
+├── documentation/                   # Project documentation (CC BY-NC 4.0)
+│   ├── LICENSE                      # License for thesis & academic materials
 │   ├── Bachelor_Thesis_Sebastian_Russo.docx
 │   ├── Bachelor_Thesis_Proposal_Sebastian_Russo.docx
 │   ├── Bachelor_Thesis_Proposal_long_version.docx
@@ -575,7 +576,7 @@ Modify `src/core/config.json` to:
 ## 📄 Documentation
 
 ### Project Documentation
-- **`documentation/`**: Complete thesis and proposals
+- **`documentation/`**: Complete thesis and proposals ([CC BY-NC 4.0](documentation/LICENSE))
 - **`src/results/README.md`**: Results directory documentation
 - **Build Scripts**: Built-in help and usage examples
 
@@ -693,7 +694,14 @@ Major: Software Engineering
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This repository uses **two licenses**:
+
+| Part | Location | License |
+|------|----------|---------|
+| Software (code, scripts, notebooks, build tooling) | Repository except `documentation/` scholarly materials | [Apache License 2.0](LICENSE) |
+| Thesis paper, proposals, presentations, and related text and figures | [`documentation/`](documentation/) | [CC BY-NC 4.0](documentation/LICENSE) |
+
+If you reuse the thesis or other materials under `documentation/`, you must follow the Creative Commons terms (attribution, non-commercial use). If you reuse the code, follow the Apache 2.0 terms in the root `LICENSE` file.
 
 ---
 
