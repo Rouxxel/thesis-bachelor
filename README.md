@@ -72,6 +72,7 @@ make clean          # Clean generated files
 ├── build.bat                        # Build script (Windows)
 ├── README.md                        # This file
 ├── LICENSE                          # Apache 2.0 (software)
+├── NOTICE.txt                       # Copyright and attribution notices
 ├── .gitignore                       # Git ignore rules
 │
 ├── src/                             # Source code (NEW STRUCTURE)
@@ -701,7 +702,7 @@ This repository uses **two licenses**:
 | Software (code, scripts, notebooks, build tooling) | Repository except `documentation/` scholarly materials | [Apache License 2.0](LICENSE) |
 | Thesis paper, proposals, presentations, and related text and figures | [`documentation/`](documentation/) | [CC BY-NC 4.0](documentation/LICENSE) |
 
-If you reuse the thesis or other materials under `documentation/`, you must follow the Creative Commons terms (attribution, non-commercial use). If you reuse the code, follow the Apache 2.0 terms in the root `LICENSE` file.
+If you reuse the thesis or other materials under `documentation/`, you must follow the Creative Commons terms (attribution, non-commercial use). If you reuse the code, follow the Apache 2.0 terms in the root `LICENSE` file and retain [NOTICE.txt](NOTICE.txt) with your distribution.
 
 ---
 
